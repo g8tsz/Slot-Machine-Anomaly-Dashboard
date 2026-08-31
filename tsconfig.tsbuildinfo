@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/anomalyengine.ts","./src/main.tsx","./src/mockstreams.ts","./src/types.ts","./src/usedashboard.ts","./src/vite-env.d.ts","./src/components/alertsfeed.tsx","./src/components/anomalysummarycards.tsx","./src/components/holdchart.tsx","./src/components/machineholdtable.tsx"],"version":"5.9.3"}

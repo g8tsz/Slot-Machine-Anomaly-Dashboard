@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --floor-950: #0a0e14;
+  --floor-900: #0f1419;
+  --floor-800: #151c25;
+  --slot-gold: #d4a853;
+  --slot-red: #c94a4a;
+  --slot-green: #3d9b5c;
+  --slot-amber: #e5a84a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--floor-950);
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+/* Live indicator pulse */
+@keyframes live-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+}
+
+.live-dot {
+  animation: live-dot 1.5s ease-in-out infinite;
+}
